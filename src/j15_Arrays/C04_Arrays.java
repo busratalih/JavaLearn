@@ -18,16 +18,11 @@ public class C04_Arrays {
 
         System.out.println("sayı1 ve sayı2 eşit mi : " + Arrays.equals(sayi1, sayi2));//true
 
+        // Array i Stringe cevirme... toString(arr) -> verilen arrayı String data tipine cevirir
 
-
-
-
-
-
-
-
-
-
+        String str=Arrays.toString(sayi1);
+        System.out.println("str = " + str); //[3, 39, 63, 72, 84] array in tum karakterleri string olarak tanımlandı
+        System.out.println(str.substring(6)); //, 63, 72, 84]
 
 
     }
