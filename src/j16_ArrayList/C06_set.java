@@ -17,5 +17,11 @@ public class C06_set {
         System.out.println("listSehir = " + listSehir);
 
 
+
+
+
+
+
+
     }
 }
