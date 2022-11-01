@@ -50,7 +50,7 @@ public class C01_AccessModifier {
 
 
 
-    C01_AccessModifier obj3=new C01_AccessModifier(); //private cons call edildi
+    C01_AccessModifier obj3=new C01_AccessModifier(); //private cons call edildi aynı class
 
 
 
