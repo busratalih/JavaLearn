@@ -28,4 +28,33 @@ public class Runner {
 
 
     }
+
+
+        /*
+         Method cagirilirken ayni isimli methodlardan
+         hangisinin kullanilacagina Constructor karar verir.
+         Methodlari arastirmaya Consctuctor ismini tasiyan
+         class'dan baslayin ve parentlarda arastirmaya devam edin.
+         */
+
+        /*
+         Ayni isimli variable'lardan hangisinin kullanildi
+        olusturulan object'in data type'ina göre bilinir
+         Variable'i arastirmaya data type'i classindan baslanır.
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
