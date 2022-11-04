@@ -17,11 +17,14 @@ public class C02_StaticBlok {
         isim="dilek";
         System.out.println("isim = " + isim);
     }
+
+
     static  { //2.calısacak blok
         System.out.println("2.static blok calisti");
         isim="ugur";
         System.out.println("isim = " + isim);
     }
+
 
     public static void main(String[] args) { //main basi
 
@@ -32,7 +35,6 @@ public class C02_StaticBlok {
         System.out.println("main method bitti");
 
     } //main sonu
-
 
 
 }

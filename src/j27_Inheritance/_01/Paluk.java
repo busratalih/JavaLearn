@@ -1,4 +1,4 @@
-package j26_Inheritance._01;
+package j27_Inheritance._01;
 
 public class Paluk extends Hayvancık {
     public  void ızgaraTava() {
