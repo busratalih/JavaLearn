@@ -1,6 +1,6 @@
 package j26_Encapsulation;
 
-public class Runner {
+public class KisiRunner {
     public static void main(String[] args) {
 
         Kisi obj1=new Kisi("umit", "K", 33, "umitK33");
