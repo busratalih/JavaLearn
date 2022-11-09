@@ -37,6 +37,14 @@ public class C02_FileInputStreamException01 {
             //ilgili dosyaya ulaşmak için fis obj tanımlandı parametre olarak ulaşılacak dosya yolu(path) girildi
             //FileNotFoundException-> adres yanlışşsa controlu
 
+        /*
+        eger bir method da checked (CTE riski olan exc) exception varsa method sıgnature (method name den sonraki
+        bölüm) hata uyarısı altı kırmızı çizgi verir
+        komutun derlenmesine izin vermez ve kod üzerine geldiğinde Add... exception handle etme tavsiye eder otomatik
+        throws excp eklenir
+        Bu sekşlde methodu call eden komutlar try-catch alınması garanti edilmiş olur
+         */
+
             int k;
             while ((k=fis.read())!=-1){//IOException -> evde yoksa controlu
                 System.out.print((char)k);//k int  ascci olan file değeri char ici casting-> type dönüşümü
