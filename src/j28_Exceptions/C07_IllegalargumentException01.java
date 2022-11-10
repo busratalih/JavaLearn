@@ -2,8 +2,25 @@ package j28_Exceptions;
 
 import java.util.Scanner;
 
-public class C07_IllegalargumentException {
+public class C07_IllegalargumentException01 {
     public static void main(String[] args) {
+
+        /*
+
+        throw-throws farkları
+        1-) "throws" -> main method parantezini kapanıs parantezi ile method body açılış parantezi arasına tanımlanır
+        "throw" -> method body içinde tanımlanır
+
+        2-)"throws" -> keyword sonra birden fazla exception tanımlanabilir
+        "throw"->  keywordden sonra sadece bir tane exception tanımlanır
+
+        3-)"throws" -> keywordden sonra sadece exception class name yazılır
+        "throw" -> keywordden sonra exception obj tanımlanır
+
+        4-) "throws" -> keyword method ilk satırda sadece bir kez tanımlanır
+        "throw" -> keyword istenildigi kadar method de tanımlanabilir
+
+         */
 
         // IllegalargumentException -> kullanılmasını istenmeyen değerlerde pr hata vermesi isteniyorsa bu excp fırlatılıer
         // ornek : yas datası için negatif değer girilidğinde pr kırılmadan run olması ama girile değer için excp fırlatması için kullanılır..
