@@ -1,3 +1,5 @@
+package j28_Exceptions;
+
 public class C03_ClassCastException {
     public static void main(String[] args) {
 
