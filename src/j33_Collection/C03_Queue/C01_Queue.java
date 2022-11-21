@@ -12,7 +12,7 @@ public class C01_Queue {
         Queue coll. interface oldugu için child class olan LinkedList ve PriorityQueue ile obj üretilir.
         Eczane yemekhane vs belirli şart ile aksiyon alan elemanlar için kullanılır.
         Cons seçimine göre queque obj özellikleri belirlenr
-        FİFO -> first in first out: coll. ilk giren eleman ilk çıkar. Eleman en sona eklenir
+        FİFO -> first in first out: coll. ilk giren eleman ilk çıkar. Eleman en sona eklenir enbaştan silinir
          */
 
         Queue<String>q1=new LinkedList<>(Arrays.asList("Cebrail","Sumeyra", "Yakup","Muharrem"));
@@ -48,6 +48,11 @@ public class C01_Queue {
         //offer()-> queue coll. eleman eklemek için kullnılır.
         System.out.println("q2.offer(\"küşleme\") = " + q2.offer("küşleme"));//true
 
+            /*
+            ahan da Trick kösesinde bugun : offer ve add farkı ->  eger queue coll. eleman kısıtlaması yapılmış ise
+             add meth Exception fırlatır.offer ise true-false return eder.
+
+            */
 
 
 
